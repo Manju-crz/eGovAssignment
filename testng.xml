@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--<suite name="API Test Automation" parallel="tests" thread-count="1" preserve-order="true">  -->
+<suite name="eGov Assignment">
+
+	<test name="Execution Suite" preserve-order="true">
+			<classes>
+				<class name="com.egov.api.tests.HouseHoldCreateTest" />
+				<class name="com.egov.api.tests.IndividualCreateTest" />
+			</classes>
+	</test>
+
+</suite>
