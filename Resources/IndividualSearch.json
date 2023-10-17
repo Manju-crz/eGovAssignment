@@ -1,0 +1,8 @@
+{
+    "RequestInfo": {
+        "authToken": "{{authToken}}"
+    },
+    "Individual": {
+        "id": ["1c7ec87d-9e8b-4e65-9702-1835608b4cc3"] 
+    }
+}

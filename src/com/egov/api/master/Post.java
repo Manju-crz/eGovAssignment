@@ -9,12 +9,6 @@ public class Post extends Requester {
 
 	@Override
 	public Requester request() {
-		RequestSpecification request = RestAssured.given();
-		request.baseUri(resourceURI)
-		.contentType(ContentType.URLENC)
-		.headers(headers)
-		.params(parameters)
-		.body(requestBody);
 		response = request.post();
 		return this;
 	}

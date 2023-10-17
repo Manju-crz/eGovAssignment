@@ -18,4 +18,6 @@ public class ResponseExtractor {
 		return validatableResponse.extract().path(jsonPath).toString();
 	}
 	
+	
+	
 }

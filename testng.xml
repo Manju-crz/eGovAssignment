@@ -6,8 +6,8 @@
 
 	<test name="Execution Suite" preserve-order="true">
 			<classes>
-				<class name="com.egov.api.tests.HouseHoldCreateTest" />
-				<class name="com.egov.api.tests.IndividualCreateTest" />
+				<class name="com.egov.api.tests.HouseHoldTest" />
+				<class name="com.egov.api.tests.IndividualTest" />
 			</classes>
 	</test>
 
